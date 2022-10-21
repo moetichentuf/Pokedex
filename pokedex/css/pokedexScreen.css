@@ -1,0 +1,157 @@
+
+#img{
+    width: 30%;
+    height: 30%;
+    bottom: 28%;
+   left: 35%;
+
+ opacity: 90%;
+position: fixed;
+filter: grayscale(100%) brightness(55%) sepia(200%) hue-rotate(50deg) saturate(300%);
+ z-index: -10;
+}
+#img:hover {
+  filter: none ;
+
+  width: 32%;
+    height: 32%;
+    position: fixed;
+    left: 34%;
+    /* -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);   */
+    transition: 1s;
+}
+#p{
+    position:fixed;
+    font-size: 30px;
+    bottom: 7%;
+    left: 43%;
+}
+#pokeType{
+   right: 3%;
+top: 4px;;
+position: absolute;
+}
+#pokeInfo{
+    background-color: #4E891C;
+    font-size: 15px;
+    color: #074d09;
+   border-style: dashed;
+    border-color:  #074d09;
+    border-width: 4px;
+    right: 45%;
+   top: 10%;
+   background: #4f891cca;
+position: absolute;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.id{
+   margin-left:5%;
+   top:2%;
+   position: absolute;
+   padding-right: 10%;
+   color: #074d09;
+   font-size:  2vw;
+}
+.idNumber{
+    margin-left: -40%;
+    color: #074d09;
+    top:7%;
+   position: absolute;
+   font-size:  2vw;
+}
+#poke_data{
+   border-left: 10px solid  rgb(150, 5, 5);
+   border-right: 10px solid  rgb(150, 5, 5);
+   border-bottom: 5px solid  rgb(150, 5, 5);
+   border-top: 5px solid  rgb(150, 5, 5);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto Mono';font-size: 22px;
+                                                
+    width: 90%;
+    height: 70%;
+    right: 4%;
+    bottom: 1%;
+    text-align: center;
+    position: fixed;
+    background-color: #4E891C;
+}
+#previous:hover, #next:hover  {
+    background-color: #074d09;
+    color: #4E891C;
+    font-size: 9vw;
+    transition: 0.3s;
+    top: 29%;
+  }
+  #previous:active  {
+    top: 28%;
+    left: 0%;
+    font-size: 10vw;
+  }
+  #next:active  {
+    top: 28%;
+    right: 0%;
+    font-size: 10vw;
+   
+  }
+#previous{
+    background: none;
+    border:2px solid #074d09;
+  color: #074d09;
+  font-size: 8vw;
+  position: absolute;
+  left: 1%;
+  top: 30%;
+}
+#next{
+   background: none;
+    border:2px solid #074d09;
+  color: #074d09;
+  font-size:  8vw;
+  position: absolute;
+  right: 1%;
+  top: 30%;
+  
+}
+
+
+ 
+
+
+  html {
+    overflow:   scroll;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent; /* make scrollbar transparent */
+  }
+  #poke_data:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 5px solid #3f7e08;
+    
+    pointer-events: none;
+  }
+  #poke_data:after {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border-left: 5px solid rgb(250, 41, 41);
+    border-right: 5px solid rgb(250, 41, 41);
+    border-bottom: 5px solid rgb(250, 41, 41);
+    border-top: 5px solid rgb(150, 5, 5);
+    pointer-events: none;
+  }

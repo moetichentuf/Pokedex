@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		pokedex
+	</title>
+	<link rel="stylesheet" href="/css/style.css">
+	<link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+	<link rel="stylesheet" href="/css/navbar.css">
+	<link rel="stylesheet" href="/css/pokedexScreen.css">
+</head>
+
+<body>
+
+	<div class="navbar">
+		<div class="dropdown">
+		  <button class="dropbtn">- Generation -
+			<i class="fa fa-caret-down"></i>
+		  </button>
+		  <div class="dropdown-content">
+			<a href="index.html">-1-</a>
+			<a href="gen2.html">-2-</a>
+			<a href="gen3.html">-3-</a>
+			<a href="gen4.html">-4-</a>
+			<a href="gen5.html">-5-</a>
+			<a href="gen6.html">-6-</a>
+			<a href="gen7.html">-7-</a>
+			<a href="gen8.html">-8-</a>
+		  </div>
+		</div>
+	  </div>
+	  <a id="pokedex" href="index.html">Pokedex</a>
+
+<div id="poke_data">
+	
+	<img  src="" id="img">​ 
+	<div id="pokeInfo">
+	<p id="pokeHeight"></p>
+	<p id="pokeWeight"></p>
+    </div>
+		<button id="previous" type="button" value="minus" onclick="updateAmount('minus');"> < </button>
+		
+		<button id="next" type="button" value="plus" onclick="updateAmount('plus');"> > </button>
+<p id="p"></p>	
+	<p class="id">#</p>
+	  <span class="idNumber" id="number">0</span>
+	
+    <div id="data"></div>
+	<div id="data2"></div>
+	
+<p id="pokeType"></p>
+
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="/js/gen4.js"></script>
+
+</body>
+
+</html>
+
+

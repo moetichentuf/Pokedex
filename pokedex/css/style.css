@@ -1,0 +1,15 @@
+body{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(228, 8, 8);
+    color: #074d09;
+}
+#pokedex{
+  font-family: 'Pokemon Solid';
+  font-size: 40px;
+  color: rgb(150, 5, 5);
+margin-left: 43%;
+margin-top: 2%;
+position: absolute;
+}
